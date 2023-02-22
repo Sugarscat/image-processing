@@ -1,6 +1,6 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HelloWorld from './web/components/HelloWorld.vue'
+import TheWelcome from './web/components/TheWelcome.vue'
 </script>
 
 <template>

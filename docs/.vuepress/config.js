@@ -4,6 +4,7 @@ import { defaultTheme } from 'vuepress'
 export default defineUserConfig({
     base: '/image-processing/',
     publicPath: '/image-processing/',
+    port: 3001,
     lang: 'zh-CN',
     title: 'image-processing',
     description: '文档。',
