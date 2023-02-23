@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
-import { defaultTheme } from 'vuepress'
+import Theme from './theme.config'
+import langConfig from "./lang.config";
 export default defineUserConfig({
     base: '/image-processing/',
     publicPath: '/image-processing/',
@@ -12,22 +13,6 @@ export default defineUserConfig({
     plugins: [
         backToTopPlugin(),
     ],
-    markdown: {
-        headers: {
-            level: [2, 3, 4, 5],
-        },
-    },
-    theme: defaultTheme({
-        // 导航栏
-        navbar: [
-            {
-                text: '首页',
-                link: '/',
-            },
-            {
-                text: 'Github',
-                link: 'https://github.com/Sugarscat/',
-            },
-        ],
-    }),
+    theme:Theme,
+    locales:langConfig,
 })

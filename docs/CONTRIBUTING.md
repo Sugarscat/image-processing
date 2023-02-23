@@ -1,3 +1,7 @@
+## 目录结构
+
+
+
 
 ## Web 页面
 
@@ -5,13 +9,9 @@
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
 
 ```sh
 npm run build
