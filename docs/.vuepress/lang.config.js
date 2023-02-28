@@ -3,7 +3,7 @@ import {defineUserConfig} from "vuepress";
 export default defineUserConfig({
     // 语言
     '/': {
-        lang: 'zh-CN',
+        lang: 'zh-CN.js',
         description: '',
     },
     '/en/': {

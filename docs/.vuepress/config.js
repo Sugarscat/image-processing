@@ -6,7 +6,7 @@ export default defineUserConfig({
     base: '/image-processing/',
     publicPath: '/image-processing/',
     port: 3001,
-    lang: 'zh-CN',
+    lang: 'zh-CN.js',
     title: 'image-processing',
     description: '文档。',
     head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
