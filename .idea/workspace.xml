@@ -5,41 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a7c832-6be2-4bae-9a76-03c13f50bc00" name="变更" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/web/components/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/Ai.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/AsideMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/C404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/Change.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/Compress.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/Loading.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/Promote.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconAbout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconAi.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconChange.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconClose.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconCompress.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconDark.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconLang.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconLight.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/components/icons/IconPromote.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/lang/jp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/lang/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/utils/i18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/utils/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/lang.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/lang.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/assets/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/lang/en-US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/AsideMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/components/AsideMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/lang/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/lang/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/utils/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +131,7 @@
       <workItem from="1677401845158" duration="1253000" />
       <workItem from="1677403772983" duration="487000" />
       <workItem from="1677404281194" duration="42578000" />
-      <workItem from="1677510746369" duration="7725000" />
+      <workItem from="1677510746369" duration="12091000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1677065181817</created>
@@ -192,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677137609374</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1677562041162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677562041162</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

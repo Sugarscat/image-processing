@@ -30,31 +30,31 @@ const toggleDark = useToggle(isDark);
       <router-link to="/change">
         <IconChange/>
         <span style="margin: 5px">
-          格式转换
+          {{ $t('asideMenu.change') }}
         </span>
       </router-link>
       <router-link to="/compress">
         <IconCompress/>
         <span style="margin: 5px">
-          体积压缩
+          {{ $t('asideMenu.compress') }}
         </span>
       </router-link>
       <router-link to="/promote">
         <IconPromote/>
         <span style="margin: 5px">
-          画质提升
+          {{ $t('asideMenu.promote') }}
         </span>
       </router-link>
       <router-link to="/ai">
         <IconAi/>
         <span style="margin: 5px">
-          AI画图
+          {{ $t('asideMenu.ai') }}
         </span>
       </router-link>
       <router-link to="/about">
         <IconAbout/>
         <span style="margin: 5px">
-          关于
+          {{ $t('asideMenu.about') }}
         </span>
       </router-link>
     </div>
@@ -96,13 +96,12 @@ export default {
   },
   created(){
     this.$nextTick(function(){
+      let element = document.getElementById("label-check");
+      element.checked = bodyWidth > 1024;
+      menuView();
       window.addEventListener('resize', function (e) {
         let element = document.getElementById("label-check");
-        if (bodyWidth > 1024)
-            element.checked = true;
-        else{
-            element.checked = false;
-          }
+        element.checked = bodyWidth > 1024;
         menuView();
       }, false);
     })
@@ -226,6 +225,7 @@ export default {
   align-items: center;
   justify-content: flex-start;
   transition: all 0s ease-in-out;
+  padding-left: 10px;
 }
 
 .side-menu .menu span {
@@ -318,6 +318,7 @@ export default {
 .side-menu-brief .menu a{
   width: 40px;
   justify-content: center;
+  padding: 0;
 }
 
 .side-menu-brief .menu span{

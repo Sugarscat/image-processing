@@ -53,6 +53,7 @@ export function menuView(){
     let element = document.getElementById("label-check");
     let aside = document.getElementById("aside");
     let main = document.getElementById("main");
+    let loading = document.getElementById("loading");
     let sideMenu = document.getElementById("sideMenu");
     if (element.checked) {
         sideMenu.className = "side-menu";
@@ -64,7 +65,6 @@ export function menuView(){
         aside.style.width = 50 + "px";
         main.style.width = bodyWidth - 50 + 'px';
     }
-    let loading = document.getElementById("loading");
     loading.style.width = main.style.width;
 }
 // 监听点击事件
