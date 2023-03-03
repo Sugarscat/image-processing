@@ -71,6 +71,10 @@ aside {
   justify-content: center;
 }
 
+main {
+  height: 100%;
+}
+
 @media (min-width: 1024px) {
 
 }

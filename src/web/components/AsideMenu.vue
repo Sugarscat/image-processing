@@ -1,5 +1,7 @@
 <script setup>
 import { useDark, useToggle } from '@vueuse/core';
+const isDark = useDark();
+const toggleDark = useToggle(isDark);
 import IconLang from "@/web/components/icons/IconLang.vue";
 import IconDark from "@/web/components/icons/IconDark.vue";
 import IconLight from "@/web/components/icons/IconLight.vue";
@@ -9,8 +11,6 @@ import IconPromote from "@/web/components/icons/IconPromote.vue";
 import IconAi from "@/web/components/icons/IconAi.vue";
 import {menuView} from "@/web/utils";
 import IconAbout from "@/web/components/icons/IconAbout.vue";
-const isDark = useDark();
-const toggleDark = useToggle(isDark);
 </script>
 
 <template>

@@ -1,4 +1,6 @@
 /* color palette from <https://github.com/vuejs/theme> */
+@import 'element-plus/theme-chalk/dark/css-vars.css';
+
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -11,6 +13,8 @@
   --vt-c-black: #181818;
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
+  --vt-c-black-lighter: rgba(0, 0, 0, .3);
+  --vt-c-black-lighter2: rgba(0, 0, 0, .1);
 
   --vt-c-indigo: #2c3e50;
 
@@ -33,7 +37,7 @@
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 
-  --vt-c-dialog-light: rgba(0, 0, 0, .3)
+  --vt-c-dialog-light: var(--vt-c-black-lighter);
 }
 
 /* semantic color variables for this project */
@@ -69,7 +73,8 @@
   }
 }
 
-.dark {
+html.dark {
+  /* 自定义深色背景颜色 */
   --color-background: var(--vt-c-black-background);
   --color-background-soft: var(--vt-c-black-soft);
   --color-background-mute: var(--vt-c-black-mute);
@@ -81,6 +86,10 @@
   --color-text: var(--vt-c-text-dark-2);
 
   --color-fill: var(--vt-c-dark-fill);
+}
+
+html.dark .el-input {
+  --el-input-bg-color: var(--color-background);
 }
 
 *,
@@ -95,6 +104,7 @@
 
 body {
   min-height: 100vh;
+  min-width: 375px;
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;

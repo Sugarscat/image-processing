@@ -1,5 +1,8 @@
 package org.com;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,7 +12,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        String folderPath = "D:\\Ai_improve";
+        // 以下代码非项目代码
+        /*String folderPath = "D:\\Ai_improve";
         String input = null;
         Scanner sc=new Scanner(System.in);
         input = sc.nextLine();
@@ -32,7 +36,11 @@ public class Main {
         String line;
         while ((line = reader.readLine()) != null) {
             System.out.println(line);
-        }
+        }*/
+        // 以上代码非项目代码
+
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ctx.getBean("");
     }
 }
 

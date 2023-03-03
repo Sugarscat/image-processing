@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a7c832-6be2-4bae-9a76-03c13f50bc00" name="变更" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/components/LoadingJob.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/components/ProcessPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/assets/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/components/AsideMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/components/AsideMenu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/lang/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/lang/zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/Change.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/components/Change.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/Compress.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/components/Compress.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -29,6 +41,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Environment/apache-maven-3.9.0" />
+        <option name="userSettingsFile" value="D:\Environment\apache-maven-3.9.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -50,6 +68,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "14.19.1",
+    "javascript.nodejs.core.library.typings.version": "14.18.37",
     "last_opened_file_path": "E:/GitHub/image-processing/src/web/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,6 +79,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
     "ts.external.directory.path": "D:\\Jetbrains\\apps\\IDEA-U\\ch-0\\223.8617.56\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -76,7 +97,7 @@
       <recent name="E:\GitHub\image-processing\docs\doc" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.com.Main" />
       <module name="image-processing" />
@@ -89,6 +110,16 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -110,6 +141,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,7 +167,11 @@
       <workItem from="1677401845158" duration="1253000" />
       <workItem from="1677403772983" duration="487000" />
       <workItem from="1677404281194" duration="42578000" />
-      <workItem from="1677510746369" duration="12091000" />
+      <workItem from="1677510746369" duration="33271000" />
+      <workItem from="1677748055011" duration="9246000" />
+      <workItem from="1677814869507" duration="971000" />
+      <workItem from="1677817131253" duration="2348000" />
+      <workItem from="1677823189858" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1677065181817</created>
@@ -168,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677562041162</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1677582586590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677582586590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
